@@ -11,29 +11,9 @@ SerialData-Qt is a Qt Quick application that reads and writes serial data throug
 - **Error Handling**: Automatically reconnects and resumes reading data if the serial port disconnects.
 - **Data Writing**: Write data to the same port using the `writeport` function.
 
-## Installation
+## Build and run the project:
 
-1. **Clone the repository:**
-
-    ```sh
-    git clone https://github.com/yourusername/serialdata-Qt.git
-    ```
-
-2. **Navigate to the project directory:**
-
-    ```sh
-    cd serialdata-Qt
-    ```
-
-3. **Open the project with Qt Creator:**
-
-    ```sh
-    qtcreator serialdata-Qt.pro
-    ```
-
-4. **Build and run the project:**
-
-    Follow the usual steps in Qt Creator to build and run the project.
+    Follow the usual steps in Qt Creator to build and run the project or cmake build.s
 
 ## Usage
 
@@ -57,6 +37,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## Contact
 
-For any questions or support, please contact [your-email@example.com](mailto:your-email@example.com).
+For any questions or support, please contact [kunalf44@gmail.com](mailto:your-email@example.com).
 
 
