@@ -1,0 +1,12 @@
+--bare
+-I
+/home/kunal/SerialCommunication/build/Desktop_Qt_6_7_2-Debug
+-I
+/home/kunal/Qt/6.7.2/gcc_64/./qml
+--resource
+/home/kunal/SerialCommunication/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_SerialCommunication.qrc
+--resource
+/home/kunal/SerialCommunication/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appSerialCommunication_raw_qml_0.qrc
+/home/kunal/SerialCommunication/Main.qml
+--json
+/home/kunal/SerialCommunication/build/Desktop_Qt_6_7_2-Debug/appSerialCommunication_qmllint.json

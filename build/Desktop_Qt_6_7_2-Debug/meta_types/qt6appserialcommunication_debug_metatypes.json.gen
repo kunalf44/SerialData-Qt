@@ -1,0 +1,88 @@
+[
+    {
+        "classes": [
+            {
+                "className": "SerialManager",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "startReading",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "data",
+                        "notify": "dataChanged",
+                        "read": "data",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setData"
+                    }
+                ],
+                "qualifiedClassName": "SerialManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "dataChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "setData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "error",
+                                "type": "QSerialPort::SerialPortError"
+                            }
+                        ],
+                        "name": "handleSerialError",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "readData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "writeport",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "serial.h",
+        "outputRevision": 68
+    }
+]

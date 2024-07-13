@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/SerialCommunication/">
+    <file alias="Main.qml">/home/kunal/SerialCommunication/Main.qml</file>
+  </qresource>
+</RCC>
+

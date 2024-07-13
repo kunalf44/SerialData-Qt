@@ -1,0 +1,14 @@
+-rootPath
+/home/kunal/SerialCommunication
+-cmake-output
+-output-file
+/home/kunal/SerialCommunication/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appSerialCommunication_build.cmake
+-importPath
+/home/kunal/SerialCommunication/build/Desktop_Qt_6_7_2-Debug/SerialCommunication
+-importPath
+/home/kunal/SerialCommunication/build/Desktop_Qt_6_7_2-Debug
+-importPath
+/home/kunal/Qt/6.7.2/gcc_64/./qml
+-qrcFiles
+/home/kunal/SerialCommunication/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_SerialCommunication.qrc
+/home/kunal/SerialCommunication/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appSerialCommunication_raw_qml_0.qrc

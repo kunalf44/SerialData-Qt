@@ -1,0 +1,1 @@
+/home/kunal/SerialCommunication/build/Desktop_Qt_6_7_2-Debug/appSerialCommunication_autogen/include/../EWIEGA46WW/moc_serial.cpp.json
