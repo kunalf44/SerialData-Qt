@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_appSerialCommunication_FILE /home/kunal/SerialCommunication/build/Desktop_Qt_6_7_2-Debug/appSerialCommunication)
-set(__QT_DEPLOY_TARGET_appSerialCommunication_TYPE EXECUTABLE)
