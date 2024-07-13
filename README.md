@@ -4,7 +4,7 @@ SerialData-Qt is a Qt Quick application that reads and writes serial data throug
 
 ## Features
 
-- **Serial Data Reading**: Reads data from serial ports.
+- **Serial Data Reading**: Reads data from serial ports and displays it in the UI as a single dialog showing the serial port data.
 - **Baud Rate Configuration**: Change baud rate settings in `serial.cpp`.
 - **Automatic Serial Port Detection**: Detects serial ports based on product manufacturer name.
 - **Manual Port Entry**: Option to manually enter the port in `usbport` QString.
@@ -46,18 +46,10 @@ SerialData-Qt is a Qt Quick application that reads and writes serial data throug
 2. **Run the Application:**
 
     - Execute the application to start reading serial data.
+    - View the serial data in the UI as a single dialog showing the serial port data.
+    - For more detailed information, check the terminal debug messages.
     - If the serial port disconnects, the application will wait for it to reconnect and resume reading data automatically.
     - Use the `writeport` function to write data to the same port.
-
-## File Structure
-
-- **serialdata-Qt/**
-  - **serialdata-Qt.pro**: Project file.
-  - **serial.cpp**: Contains the main serial communication logic.
-  - **serial.h**: Header file for serial communication.
-  - **main.cpp**: Entry point of the application.
-  - **qml/**: Directory containing QML files for the user interface.
-  - **resources/**: Directory containing application resources.
 
 ## Contributing
 
