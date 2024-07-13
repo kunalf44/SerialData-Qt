@@ -13,7 +13,7 @@ SerialData-Qt is a Qt Quick application that reads and writes serial data throug
 
 ## Build and run the project:
 
-    Follow the usual steps in Qt Creator to build and run the project or cmake build.s
+-  Follow the usual steps in Qt Creator to build and run the project or cmake build.
 
 ## Usage
 
