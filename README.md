@@ -11,6 +11,12 @@ SerialData-Qt is a Qt Quick application that reads and writes serial data throug
 - **Error Handling**: Automatically reconnects and resumes reading data if the serial port disconnects.
 - **Data Writing**: Write data to the same port using the `writeport` function.
 
+## Screenshot
+
+<img src="serialss.png"  height="300" width="600">
+
+
+
 ## Build and run the project:
 
 -  Follow the usual steps in Qt Creator to build and run the project or cmake build.

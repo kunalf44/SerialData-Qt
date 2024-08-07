@@ -1,4 +1,5 @@
 import QtQuick
+import QtQuick.Layouts
 import Serial 1.0
 
 Window {
@@ -16,14 +17,26 @@ Window {
     Component.onCompleted : {
             serial.startReading()
         }
-
-    Text{
+    ColumnLayout{
         anchors.centerIn: parent
-        text: serial.data
-        font.bold: true
-        font.pixelSize: 20
+        spacing: 50
+    Text{
+        text: "Reading Serial Data"
         font.family:  "Helvetica"
         color: "white"
+        font.bold: true
+        font.pixelSize: 16
+        Layout.alignment: Qt.AlignHCenter
+    }
+
+    Text{
+
+        text: serial.data
+        font.pixelSize: 18
+        font.family:  "Helvetica"
+        color: "white"
+        Layout.alignment: Qt.AlignHCenter
+    }
     }
 
 }
